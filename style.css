@@ -1,13 +1,14 @@
 body {
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image:url(images/background);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: grey;
 
 }
 header {
     height: 160px;
-    background-color: slateblue;
-    background-image:url(images/background);
+    background-color: rgb(163, 66, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 header h2 {
@@ -18,15 +19,15 @@ header h2 {
     text-align: center;
 }
 
-footer {
-    background-color:cornflowerblue;
-}
-
 section {
     padding: 0;
 }
 h1, h2, h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    text-align: justify;
     
+}
+footer {
+    background-color: rgb(163, 66, 201);
 }
