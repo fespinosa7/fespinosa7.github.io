@@ -8,7 +8,13 @@ header {
     height: 160px;
     background-color: rgb(163, 66, 201);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+        .shadowbox {
+    width: 15em;
+    border 1px solid #333;
+    box-shadow: 8px 8px 6px #444;
+    padding: 8px 12px;
+    backgound-image: linear-gradient(180deg, #fff, #ddd, 40%, #ccc);
+}
 }
 
 header h2 {
