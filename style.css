@@ -9,15 +9,17 @@ header {
     background-color: rgb(163, 66, 201);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
-    .shadowbox {
-         width: 15em;
-         border 1px solid #333;
-         box-shadow: 8px 8px 6px #444;
-         padding: 8px 12px;
-         backgound-image: linear-gradient(180deg, #fff, #ddd, 40%, #ccc);}
     text-align: center;
 }
 
+.shadowbox {
+ width: 15em;
+ border 1px solid #333;
+ box-shadow: 8px 8px 6px #444;
+ padding: 8px 12px;
+ backgound-image: linear-gradient(180deg, #fff, #ddd, 40%, #ccc);
+}
+    
 header h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
@@ -39,10 +41,9 @@ footer {
     background-color: rgb(163, 66, 201);
 }
 
-.shadowbox {
-    width: 15em;
-    border 1px solid #333;
-    box-shadow: 8px 8px 6px #444;
-    padding: 8px 12px;
-    backgound-image: linear-gradient(180deg, #fff, #ddd, 40%, #ccc);
-}
+{
+    a:link {color: blue}
+    a:visited {color: purple}
+    a:hover {color: pink}
+    a:active {color: yellow}
+    }
