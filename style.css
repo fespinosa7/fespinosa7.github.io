@@ -41,7 +41,7 @@ h1, h2, h3 {
 footer {
     background-color: rgb(163, 66, 201);
 }
-{
+a {
     a:visited { color: purple;}
     a:hover {color: pink;}
     a:active {color: yellow;}
